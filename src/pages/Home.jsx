@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="rounded-lg bg-gray-50 p-7 text-gray-900 shadow-lg">
+    <div className="m-6 rounded-lg bg-gray-50 p-7 text-gray-900 shadow-lg">
       <h1 className="mb-4 flex items-center text-4xl font-bold">
         <Icon icon="mdi:home" className="mr-2" />
         Home
@@ -18,8 +18,8 @@ const Home = () => {
         Perspiciatis similique quaerat reiciendis nam aliquam?
       </p>
 
-      <Link to="/posts" className="flex items-center text-blue-600 hover:underline">
-        Posts
+      <Link to="/form" className="flex items-center text-blue-600 hover:underline">
+        Register
         <Icon icon="mdi:arrow-right" className="ml-2" />
       </Link>
     </div>
